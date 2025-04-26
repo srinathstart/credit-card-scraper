@@ -43,7 +43,7 @@ The scraper attempts to extract the following information for each credit card:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/credit-card-scraper.git
+git clone https://github.com/srinathstart/credit-card-scraper.git
 cd credit-card-scraper
 ```
 
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 ### Basic Usage
 
 ```bash
-python credit_card_scraper.py [source] [options]
+python credit-card-scraper.py [source] [options]
 ```
 
 Where `[source]` is a URL or path to a PDF file.
@@ -90,31 +90,31 @@ Where `[source]` is a URL or path to a PDF file.
 #### Extract from a website:
 
 ```bash
-python credit_card_scraper.py https://example.com/credit-cards
+python credit-card-scraper.py https://example.com/credit-cards
 ```
 
 #### Extract from a PDF file:
 
 ```bash
-python credit_card_scraper.py path/to/credit_card_brochure.pdf
+python credit-card-scraper.py path/to/credit_card_brochure.pdf
 ```
 
 #### Convert image-based PDF and extract information:
 
 ```bash
-python credit_card_scraper.py path/to/credit_card_brochure.pdf --convert-pdf --output-pdf converted_brochure.pdf
+python credit-card-scraper.py path/to/credit_card_brochure.pdf --convert-pdf --output-pdf converted_brochure.pdf
 ```
 
 #### Specify output format:
 
 ```bash
-python credit_card_scraper.py https://example.com/credit-cards --format json
+python credit-card-scraper.py https://example.com/credit-cards --format json
 ```
 
 #### Specify output filename:
 
 ```bash
-python credit_card_scraper.py https://example.com/credit-cards --output my_cards
+python credit-card-scraper.py https://example.com/credit-cards --output my_cards
 ```
 
 ## Sample Outputs
